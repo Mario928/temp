@@ -164,11 +164,12 @@ python create_rules.py p0_token_0.jsonl p1_token_*.jsonl --output rules_mixed.js
 
 ```bash
 # Usage
-python evaluate_rules.py --rules <rules.json> --test <file1> [file2] ...
+python evaluate_rules.py --rules <rules.json> --test <file1> [file2] ... [--output results.json]
 
 # Arguments:
 #   --rules, -r         Rules JSON file from create_rules.py (required)
 #   --test, -t          One or more test files (required)
+#   --output, -o        Output JSON file to save results (optional)
 ```
 
 **Examples:**
@@ -185,8 +186,28 @@ python evaluate_rules.py --rules rules.json --test p1_token_*.jsonl
 # Wildcard - all tokens
 python evaluate_rules.py -r rules.json -t p0_token_*.jsonl p1_token_*.jsonl
 
-# Different rules file
-python evaluate_rules.py -r rules_from_5tokens.json -t p1_token_0.jsonl p1_token_5.jsonl
+# Save results to JSON file
+python evaluate_rules.py -r rules.json -t p1_token_*.jsonl --output results.json
+```
+
+**Output JSON format (when using --output):**
+```json
+{
+  "metadata": {
+    "timestamp": "2025-12-10T04:46:48.826806",
+    "rules_file": "test_rules.json",
+    "training_files": ["p0_token_0.jsonl"],
+    "test_files": ["p1_token_0.jsonl", "p1_token_1.jsonl", ...],
+    "num_test_files": 11
+  },
+  "results": {
+    "level1": {"correct": 32, "total": 75, "accuracy_percent": 42.67, "vs_random": 3.41},
+    "level2": {"correct": 22, "total": 31, "accuracy_percent": 70.97, "vs_random": 5.68},
+    "level3": {"correct": 18, "total": 21, "accuracy_percent": 85.71, "vs_random": 6.86},
+    ...
+  },
+  "best_level": {"name": "level3", "accuracy_percent": 85.71}
+}
 ```
 
 ---

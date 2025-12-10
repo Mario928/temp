@@ -3,18 +3,20 @@
 EVALUATE RULES ON SPECIFIED TOKEN JOURNEY FILES
 
 Usage:
-    python evaluate_rules.py --rules rules.json --test <test_file1> [test_file2] ...
+    python evaluate_rules.py --rules rules.json --test <test_file1> [test_file2] ... [--output results.json]
 
 Example:
     python evaluate_rules.py --rules rules_from_1.json --test p0_token_1.jsonl p0_token_2.jsonl
     python evaluate_rules.py --rules rules.json --test p0_token_*.jsonl p1_token_*.jsonl
+    python evaluate_rules.py --rules rules.json --test p1_token_*.jsonl --output results.json
 
-Output: Accuracy for all 5 levels
+Output: Accuracy for all 5 levels (prints to stdout and optionally saves to JSON)
 """
 
 import argparse
 import json
 import glob
+from datetime import datetime
 
 def load_journey(filename):
     """Load a token journey file (32 layers)"""
@@ -77,6 +79,7 @@ def main():
     parser = argparse.ArgumentParser(description='Evaluate expert prediction rules on token journey files')
     parser.add_argument('--rules', '-r', required=True, help='Rules JSON file (from create_rules.py)')
     parser.add_argument('--test', '-t', nargs='+', required=True, help='Token journey files for testing')
+    parser.add_argument('--output', '-o', help='Output JSON file to save results (optional)')
     args = parser.parse_args()
 
     print("="*70)
@@ -196,6 +199,40 @@ def main():
     best_acc = best[1]['correct']/best[1]['total']*100 if best[1]['total'] > 0 else 0
     print(f"\n🏆 BEST: {best[0]} with {best_acc:.1f}% accuracy")
     print("="*70)
+
+    # Save results to JSON if output file specified
+    if args.output:
+        # Build results with accuracy
+        results_with_accuracy = {}
+        for level_name, data in results.items():
+            c = data['correct']
+            t = data['total']
+            acc = c/t*100 if t > 0 else 0
+            results_with_accuracy[level_name] = {
+                'correct': c,
+                'total': t,
+                'accuracy_percent': round(acc, 2),
+                'vs_random': round(acc/12.5, 2) if acc > 0 else 0
+            }
+
+        output_data = {
+            'metadata': {
+                'timestamp': datetime.now().isoformat(),
+                'rules_file': args.rules,
+                'training_files': all_rules['metadata']['training_files'],
+                'test_files': [f.split('/')[-1] for f in test_files],
+                'num_test_files': len(test_files)
+            },
+            'results': results_with_accuracy,
+            'best_level': {
+                'name': best[0],
+                'accuracy_percent': round(best_acc, 2)
+            }
+        }
+
+        with open(args.output, 'w') as f:
+            json.dump(output_data, f, indent=2)
+        print(f"\n✓ Results saved to: {args.output}")
 
 if __name__ == "__main__":
     main()
