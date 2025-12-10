@@ -13,12 +13,26 @@ Predict which expert will be selected at Layer N+1 based on expert decisions at 
 
 ## Files
 
+### Data Files (20 token journeys)
 | File | Description |
 |------|-------------|
-| `token_journey_0_p0_t0.jsonl` | Token 0 journey (32 layers) - **TRAINING DATA** |
-| `token_journey_1_p0_t1.jsonl` - `token_journey_9_p1_t4.jsonl` | Tokens 1-9 - **TEST DATA** |
-| `test_all_5_levels.py` | Main analysis script |
-| `rules.json` | All prediction rules in JSON format |
+| `p0_token_0.jsonl` - `p0_token_9.jsonl` | 10 tokens from HumanEval problem 0 |
+| `p1_token_0.jsonl` - `p1_token_9.jsonl` | 10 tokens from HumanEval problem 1 |
+
+Each file contains 32 entries (one per layer) with expert routing decisions.
+
+### Reusable Scripts
+| Script | Description |
+|--------|-------------|
+| `create_rules.py` | Create rules from specified token journey files |
+| `evaluate_rules.py` | Evaluate rules on specified test files |
+| `extract_tokens.py` | Extract token journeys from raw routing data |
+
+### Rule Files
+| File | Description |
+|------|-------------|
+| `rules_from_1token.json` | Rules from p0_token_0 only (31 rules) |
+| `rules_from_5tokens.json` | Rules from 5 tokens (majority vote) |
 
 ---
 
@@ -83,16 +97,41 @@ Example: Layer 5, Expert 6 → Expert at Layer 7
 
 ---
 
-## How to Run
+## How to Run (Reusable Scripts)
 
+### Step 1: Create Rules from Training Tokens
 ```bash
-# Run the full analysis
-python test_all_5_levels.py
+# Create rules from 1 token (p0_token_0)
+python create_rules.py p0_token_0.jsonl --output rules_from_1token.json
 
-# Output shows:
-# 1. Rules created from Token 0
-# 2. Validation results on Tokens 1-9
-# 3. Accuracy for all 5 levels
+# Create rules from multiple tokens (majority vote)
+python create_rules.py p0_token_0.jsonl p0_token_1.jsonl p0_token_2.jsonl --output rules_from_3tokens.json
+
+# Create rules from all problem 0 tokens
+python create_rules.py p0_token_*.jsonl --output rules_from_p0.json
+```
+
+### Step 2: Evaluate on Test Tokens
+```bash
+# Evaluate on specific test files
+python evaluate_rules.py --rules rules_from_1token.json --test p0_token_1.jsonl p0_token_2.jsonl
+
+# Evaluate on all tokens from problem 1
+python evaluate_rules.py --rules rules_from_1token.json --test p1_token_*.jsonl
+
+# Evaluate on ALL tokens
+python evaluate_rules.py --rules rules_from_1token.json --test p0_token_*.jsonl p1_token_*.jsonl
+```
+
+### Example Output
+```
+EVALUATION RESULTS
+Level 1 (Layer, E)             8          22         36.4%        2.9x
+Level 2 (Layer, Prev, Curr)    20         29         69.0%        5.5x
+Level 3 (Layer, E-2, E-1, E)   21         24         87.5%        7.0x
+Level 4 (Layer, P, S)          10         22         45.5%        3.6x
+
+🏆 BEST: level3 with 87.5% accuracy
 ```
 
 ---
