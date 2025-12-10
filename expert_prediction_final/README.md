@@ -99,28 +99,110 @@ Example: Layer 5, Expert 6 → Expert at Layer 7
 
 ## How to Run (Reusable Scripts)
 
-### Step 1: Create Rules from Training Tokens
+### Script 1: `extract_tokens.py` - Extract Token Journeys from Raw Data
+
 ```bash
-# Create rules from 1 token (p0_token_0)
-python create_rules.py p0_token_0.jsonl --output rules_from_1token.json
+# Usage
+python extract_tokens.py <input_file> --problem <id> --tokens <start> <end> [--output-dir <dir>]
 
-# Create rules from multiple tokens (majority vote)
-python create_rules.py p0_token_0.jsonl p0_token_1.jsonl p0_token_2.jsonl --output rules_from_3tokens.json
-
-# Create rules from all problem 0 tokens
-python create_rules.py p0_token_*.jsonl --output rules_from_p0.json
+# Arguments:
+#   input_file          Raw routing JSONL file (required)
+#   --problem, -p       Problem ID to extract (required)
+#   --tokens, -t        Token range [start, end) (required)
+#   --output-dir, -o    Output directory (default: current dir)
 ```
 
-### Step 2: Evaluate on Test Tokens
+**Examples:**
 ```bash
-# Evaluate on specific test files
-python evaluate_rules.py --rules rules_from_1token.json --test p0_token_1.jsonl p0_token_2.jsonl
+# Single problem, tokens 0-9
+python extract_tokens.py ../humaneval_2_routing.jsonl --problem 0 --tokens 0 10
 
-# Evaluate on all tokens from problem 1
-python evaluate_rules.py --rules rules_from_1token.json --test p1_token_*.jsonl
+# Different problem
+python extract_tokens.py ../humaneval_2_routing.jsonl --problem 1 --tokens 0 10
 
-# Evaluate on ALL tokens
-python evaluate_rules.py --rules rules_from_1token.json --test p0_token_*.jsonl p1_token_*.jsonl
+# Custom output directory
+python extract_tokens.py ../humaneval_2_routing.jsonl -p 0 -t 0 10 --output-dir ./data/
+
+# Extract tokens 5-14 from problem 2
+python extract_tokens.py routing.jsonl -p 2 -t 5 15 -o ./problem2_data/
+```
+
+---
+
+### Script 2: `create_rules.py` - Create Prediction Rules
+
+```bash
+# Usage
+python create_rules.py <file1> [file2] [file3] ... --output <rules.json>
+
+# Arguments:
+#   train_files         One or more token journey files (required)
+#   --output, -o        Output JSON file (default: rules.json)
+```
+
+**Examples:**
+```bash
+# Single file (1 token)
+python create_rules.py p0_token_0.jsonl --output rules_1token.json
+
+# Multiple specific files
+python create_rules.py p0_token_0.jsonl p0_token_1.jsonl p0_token_2.jsonl --output rules_3tokens.json
+
+# Wildcard - all problem 0 tokens
+python create_rules.py p0_token_*.jsonl --output rules_p0_all.json
+
+# Wildcard - all tokens from both problems
+python create_rules.py p0_token_*.jsonl p1_token_*.jsonl -o rules_all.json
+
+# Mix of specific and wildcard
+python create_rules.py p0_token_0.jsonl p1_token_*.jsonl --output rules_mixed.json
+```
+
+---
+
+### Script 3: `evaluate_rules.py` - Evaluate Rules on Test Data
+
+```bash
+# Usage
+python evaluate_rules.py --rules <rules.json> --test <file1> [file2] ...
+
+# Arguments:
+#   --rules, -r         Rules JSON file from create_rules.py (required)
+#   --test, -t          One or more test files (required)
+```
+
+**Examples:**
+```bash
+# Single test file
+python evaluate_rules.py --rules rules.json --test p0_token_1.jsonl
+
+# Multiple specific test files
+python evaluate_rules.py --rules rules.json --test p0_token_1.jsonl p0_token_2.jsonl p0_token_3.jsonl
+
+# Wildcard - all problem 1 tokens
+python evaluate_rules.py --rules rules.json --test p1_token_*.jsonl
+
+# Wildcard - all tokens
+python evaluate_rules.py -r rules.json -t p0_token_*.jsonl p1_token_*.jsonl
+
+# Different rules file
+python evaluate_rules.py -r rules_from_5tokens.json -t p1_token_0.jsonl p1_token_5.jsonl
+```
+
+---
+
+### Complete Workflow Example
+
+```bash
+# Step 1: Extract tokens from raw data
+python extract_tokens.py ../humaneval_2_routing.jsonl --problem 0 --tokens 0 10
+python extract_tokens.py ../humaneval_2_routing.jsonl --problem 1 --tokens 0 10
+
+# Step 2: Create rules from training token(s)
+python create_rules.py p0_token_0.jsonl --output rules.json
+
+# Step 3: Evaluate on test tokens
+python evaluate_rules.py --rules rules.json --test p0_token_1.jsonl p0_token_2.jsonl p1_token_*.jsonl
 ```
 
 ### Example Output
