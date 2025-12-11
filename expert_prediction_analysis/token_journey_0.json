@@ -1,0 +1,1034 @@
+{
+  "token_idx": 0,
+  "num_layers": 64,
+  "primary_experts": [
+    6,
+    6,
+    6,
+    6,
+    7,
+    3,
+    3,
+    3,
+    0,
+    0,
+    6,
+    6,
+    3,
+    3,
+    0,
+    0,
+    7,
+    7,
+    6,
+    6,
+    0,
+    0,
+    7,
+    7,
+    6,
+    6,
+    5,
+    5,
+    4,
+    4,
+    5,
+    5,
+    4,
+    6,
+    4,
+    4,
+    3,
+    3,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    6,
+    6,
+    7,
+    7,
+    3,
+    7,
+    6,
+    6,
+    5,
+    5,
+    3,
+    3,
+    2,
+    2,
+    4,
+    4,
+    1,
+    1,
+    3,
+    3
+  ],
+  "secondary_experts": [
+    5,
+    5,
+    2,
+    7,
+    3,
+    7,
+    2,
+    2,
+    3,
+    3,
+    0,
+    2,
+    4,
+    2,
+    1,
+    1,
+    2,
+    2,
+    7,
+    7,
+    4,
+    4,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    1,
+    7,
+    4,
+    4,
+    6,
+    4,
+    3,
+    0,
+    0,
+    0,
+    5,
+    3,
+    6,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    7,
+    3,
+    1,
+    1,
+    2,
+    2,
+    7,
+    7,
+    3,
+    3,
+    3,
+    3,
+    0,
+    0,
+    6,
+    6
+  ],
+  "full_data": [
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 0,
+      "experts": [
+        6,
+        5
+      ],
+      "gating_probs": [
+        0.6959583759307861,
+        0.30404168367385864
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 0,
+      "experts": [
+        6,
+        5
+      ],
+      "gating_probs": [
+        0.6893056035041809,
+        0.3106943964958191
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 1,
+      "experts": [
+        6,
+        2
+      ],
+      "gating_probs": [
+        0.5708099007606506,
+        0.42919012904167175
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 1,
+      "experts": [
+        6,
+        7
+      ],
+      "gating_probs": [
+        0.5234203338623047,
+        0.4765796363353729
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 2,
+      "experts": [
+        7,
+        3
+      ],
+      "gating_probs": [
+        0.5058591365814209,
+        0.4941408932209015
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 2,
+      "experts": [
+        3,
+        7
+      ],
+      "gating_probs": [
+        0.5486735105514526,
+        0.45132651925086975
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 3,
+      "experts": [
+        3,
+        2
+      ],
+      "gating_probs": [
+        0.6619228720664978,
+        0.3380771279335022
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 3,
+      "experts": [
+        3,
+        2
+      ],
+      "gating_probs": [
+        0.7138307690620422,
+        0.28616926074028015
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 4,
+      "experts": [
+        0,
+        3
+      ],
+      "gating_probs": [
+        0.5708098411560059,
+        0.42919009923934937
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 4,
+      "experts": [
+        0,
+        3
+      ],
+      "gating_probs": [
+        0.6169358491897583,
+        0.3830641806125641
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 5,
+      "experts": [
+        6,
+        0
+      ],
+      "gating_probs": [
+        0.8530579209327698,
+        0.14694206416606903
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 5,
+      "experts": [
+        6,
+        2
+      ],
+      "gating_probs": [
+        0.8149381279945374,
+        0.18506188690662384
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 6,
+      "experts": [
+        3,
+        4
+      ],
+      "gating_probs": [
+        0.7859664559364319,
+        0.2140335589647293
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 6,
+      "experts": [
+        3,
+        2
+      ],
+      "gating_probs": [
+        0.8181563019752502,
+        0.18184363842010498
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 7,
+      "experts": [
+        0,
+        1
+      ],
+      "gating_probs": [
+        0.7948631048202515,
+        0.20513692498207092
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 7,
+      "experts": [
+        0,
+        1
+      ],
+      "gating_probs": [
+        0.7025300860404968,
+        0.29746997356414795
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 8,
+      "experts": [
+        7,
+        2
+      ],
+      "gating_probs": [
+        0.667147696018219,
+        0.3328523635864258
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 8,
+      "experts": [
+        7,
+        2
+      ],
+      "gating_probs": [
+        0.7162185907363892,
+        0.28378137946128845
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 9,
+      "experts": [
+        6,
+        7
+      ],
+      "gating_probs": [
+        0.8037906289100647,
+        0.19620941579341888
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 9,
+      "experts": [
+        6,
+        7
+      ],
+      "gating_probs": [
+        0.9009662866592407,
+        0.09903368353843689
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 10,
+      "experts": [
+        0,
+        4
+      ],
+      "gating_probs": [
+        0.7057850360870361,
+        0.29421499371528625
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 10,
+      "experts": [
+        0,
+        4
+      ],
+      "gating_probs": [
+        0.6967841982841492,
+        0.30321574211120605
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 11,
+      "experts": [
+        7,
+        1
+      ],
+      "gating_probs": [
+        0.8003801107406616,
+        0.19961987435817719
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 11,
+      "experts": [
+        7,
+        1
+      ],
+      "gating_probs": [
+        0.7851438522338867,
+        0.2148560881614685
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 12,
+      "experts": [
+        6,
+        2
+      ],
+      "gating_probs": [
+        0.8169911503791809,
+        0.1830088496208191
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 12,
+      "experts": [
+        6,
+        2
+      ],
+      "gating_probs": [
+        0.808672308921814,
+        0.19132769107818604
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 13,
+      "experts": [
+        5,
+        3
+      ],
+      "gating_probs": [
+        0.6477982401847839,
+        0.35220178961753845
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 13,
+      "experts": [
+        5,
+        3
+      ],
+      "gating_probs": [
+        0.7461389303207397,
+        0.2538609802722931
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 14,
+      "experts": [
+        4,
+        1
+      ],
+      "gating_probs": [
+        0.8772666454315186,
+        0.12273333966732025
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 14,
+      "experts": [
+        4,
+        7
+      ],
+      "gating_probs": [
+        0.9269180297851562,
+        0.07308198511600494
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 15,
+      "experts": [
+        5,
+        4
+      ],
+      "gating_probs": [
+        0.9127477407455444,
+        0.08725225180387497
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 15,
+      "experts": [
+        5,
+        4
+      ],
+      "gating_probs": [
+        0.8360198140144348,
+        0.16398024559020996
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 16,
+      "experts": [
+        4,
+        6
+      ],
+      "gating_probs": [
+        0.5563995838165283,
+        0.4436004161834717
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 16,
+      "experts": [
+        6,
+        4
+      ],
+      "gating_probs": [
+        0.6334102749824524,
+        0.36658975481987
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 17,
+      "experts": [
+        4,
+        3
+      ],
+      "gating_probs": [
+        0.9206470847129822,
+        0.07935290038585663
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 17,
+      "experts": [
+        4,
+        0
+      ],
+      "gating_probs": [
+        0.8594279289245605,
+        0.14057205617427826
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 18,
+      "experts": [
+        3,
+        0
+      ],
+      "gating_probs": [
+        0.7476159334182739,
+        0.2523840367794037
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 18,
+      "experts": [
+        3,
+        0
+      ],
+      "gating_probs": [
+        0.6976089477539062,
+        0.30239108204841614
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 19,
+      "experts": [
+        2,
+        5
+      ],
+      "gating_probs": [
+        0.8647679090499878,
+        0.135232076048851
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 19,
+      "experts": [
+        2,
+        3
+      ],
+      "gating_probs": [
+        0.6901415586471558,
+        0.30985844135284424
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 20,
+      "experts": [
+        0,
+        6
+      ],
+      "gating_probs": [
+        0.942506730556488,
+        0.05749327689409256
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 20,
+      "experts": [
+        0,
+        1
+      ],
+      "gating_probs": [
+        0.9384632706642151,
+        0.06153673306107521
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 21,
+      "experts": [
+        0,
+        1
+      ],
+      "gating_probs": [
+        0.9543079733848572,
+        0.04569203406572342
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 21,
+      "experts": [
+        0,
+        1
+      ],
+      "gating_probs": [
+        0.9690910577774048,
+        0.030908960849046707
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 22,
+      "experts": [
+        6,
+        1
+      ],
+      "gating_probs": [
+        0.8832359910011292,
+        0.11676400899887085
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 22,
+      "experts": [
+        6,
+        1
+      ],
+      "gating_probs": [
+        0.8244619369506836,
+        0.1755380779504776
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 23,
+      "experts": [
+        7,
+        0
+      ],
+      "gating_probs": [
+        0.6909763216972351,
+        0.3090237081050873
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 23,
+      "experts": [
+        7,
+        0
+      ],
+      "gating_probs": [
+        0.7885832190513611,
+        0.2114168256521225
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 24,
+      "experts": [
+        3,
+        7
+      ],
+      "gating_probs": [
+        0.6424325108528137,
+        0.35756751894950867
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 24,
+      "experts": [
+        7,
+        3
+      ],
+      "gating_probs": [
+        0.6334102153778076,
+        0.3665897250175476
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 25,
+      "experts": [
+        6,
+        1
+      ],
+      "gating_probs": [
+        0.8092759847640991,
+        0.19072401523590088
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 25,
+      "experts": [
+        6,
+        1
+      ],
+      "gating_probs": [
+        0.5019530653953552,
+        0.498046875
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 26,
+      "experts": [
+        5,
+        2
+      ],
+      "gating_probs": [
+        0.7648916244506836,
+        0.2351083904504776
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 26,
+      "experts": [
+        5,
+        2
+      ],
+      "gating_probs": [
+        0.8449215292930603,
+        0.1550784707069397
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 27,
+      "experts": [
+        3,
+        7
+      ],
+      "gating_probs": [
+        0.9466953277587891,
+        0.05330468341708183
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 27,
+      "experts": [
+        3,
+        7
+      ],
+      "gating_probs": [
+        0.8807970881462097,
+        0.11920291930437088
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 28,
+      "experts": [
+        2,
+        3
+      ],
+      "gating_probs": [
+        0.7994423508644104,
+        0.200557678937912
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 28,
+      "experts": [
+        2,
+        3
+      ],
+      "gating_probs": [
+        0.7905303239822388,
+        0.20946969091892242
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 29,
+      "experts": [
+        4,
+        3
+      ],
+      "gating_probs": [
+        0.7892336845397949,
+        0.21076630055904388
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 29,
+      "experts": [
+        4,
+        3
+      ],
+      "gating_probs": [
+        0.8499711751937866,
+        0.15002882480621338
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 30,
+      "experts": [
+        1,
+        0
+      ],
+      "gating_probs": [
+        0.8278281092643738,
+        0.17217184603214264
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 30,
+      "experts": [
+        1,
+        0
+      ],
+      "gating_probs": [
+        0.8333246111869812,
+        0.16667540371418
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 0,
+      "layer": 31,
+      "experts": [
+        3,
+        6
+      ],
+      "gating_probs": [
+        0.611382007598877,
+        0.38861802220344543
+      ],
+      "token_idx": 0
+    },
+    {
+      "dataset": "humaneval",
+      "problem_id": 1,
+      "layer": 31,
+      "experts": [
+        3,
+        6
+      ],
+      "gating_probs": [
+        0.5234203338623047,
+        0.4765796363353729
+      ],
+      "token_idx": 0
+    }
+  ]
+}

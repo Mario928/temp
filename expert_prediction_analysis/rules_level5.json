@@ -1,0 +1,5904 @@
+{
+  "skip_2": {
+    "(0, 6)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(1, 6)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(2, 6)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(3, 6)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(4, 7)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(5, 3)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(6, 3)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(7, 3)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(8, 0)": {
+      "prediction": 1,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "1": 1,
+        "4": 1
+      },
+      "total_samples": 3
+    },
+    "(9, 0)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(10, 6)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(11, 6)": {
+      "prediction": 1,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "3": 1,
+        "1": 2
+      },
+      "total_samples": 3
+    },
+    "(12, 3)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(13, 3)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(14, 0)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(15, 0)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(16, 7)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(17, 7)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(18, 6)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(19, 6)": {
+      "prediction": 0,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "3": 1
+      },
+      "total_samples": 2
+    },
+    "(20, 0)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(21, 0)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(22, 7)": {
+      "prediction": 1,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "6": 1,
+        "1": 2
+      },
+      "total_samples": 3
+    },
+    "(23, 7)": {
+      "prediction": 7,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "6": 1,
+        "7": 2
+      },
+      "total_samples": 3
+    },
+    "(24, 6)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "0": 1
+      },
+      "total_samples": 2
+    },
+    "(25, 6)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(26, 5)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(27, 5)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(28, 4)": {
+      "prediction": 2,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "4": 1,
+        "2": 1
+      },
+      "total_samples": 3
+    },
+    "(29, 4)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(30, 5)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(31, 5)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "5": 1
+      },
+      "total_samples": 2
+    },
+    "(32, 4)": {
+      "prediction": 6,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "6": 1
+      },
+      "total_samples": 2
+    },
+    "(33, 6)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(34, 4)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(35, 4)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(36, 3)": {
+      "prediction": 2,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "2": 1,
+        "5": 1,
+        "1": 1
+      },
+      "total_samples": 3
+    },
+    "(37, 3)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(38, 2)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(39, 2)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(40, 0)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(41, 0)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(42, 0)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(43, 0)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(44, 6)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 2
+      },
+      "total_samples": 2
+    },
+    "(45, 6)": {
+      "prediction": 0,
+      "confidence": 0.25,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "2": 1,
+        "1": 1,
+        "0": 1
+      },
+      "total_samples": 4
+    },
+    "(46, 7)": {
+      "prediction": 3,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "5": 1
+      },
+      "total_samples": 2
+    },
+    "(47, 7)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(48, 3)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(49, 7)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(50, 6)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 2
+      },
+      "total_samples": 2
+    },
+    "(51, 6)": {
+      "prediction": 0,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "5": 1,
+        "0": 2
+      },
+      "total_samples": 3
+    },
+    "(52, 5)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 2
+      },
+      "total_samples": 2
+    },
+    "(53, 5)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(54, 3)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 2
+      },
+      "total_samples": 2
+    },
+    "(55, 3)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(56, 2)": {
+      "prediction": 4,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "4": 2,
+        "0": 1
+      },
+      "total_samples": 3
+    },
+    "(57, 2)": {
+      "prediction": 0,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "4": 1,
+        "0": 2
+      },
+      "total_samples": 3
+    },
+    "(58, 4)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 2
+      },
+      "total_samples": 2
+    },
+    "(59, 4)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(60, 1)": {
+      "prediction": 6,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "3": 1,
+        "6": 2
+      },
+      "total_samples": 3
+    },
+    "(61, 1)": {
+      "prediction": 6,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "3": 1,
+        "6": 2
+      },
+      "total_samples": 3
+    },
+    "(0, 5)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "2": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(1, 5)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(2, 2)": {
+      "prediction": 6,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(3, 2)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(4, 6)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(5, 6)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(6, 7)": {
+      "prediction": 0,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "5": 1
+      },
+      "total_samples": 2
+    },
+    "(7, 7)": {
+      "prediction": 2,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "5": 1,
+        "2": 1
+      },
+      "total_samples": 3
+    },
+    "(10, 1)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(11, 7)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(12, 4)": {
+      "prediction": 0,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "7": 1,
+        "4": 1
+      },
+      "total_samples": 3
+    },
+    "(13, 4)": {
+      "prediction": 1,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(15, 3)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(16, 4)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(17, 4)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 2
+      },
+      "total_samples": 2
+    },
+    "(18, 4)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(19, 4)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(20, 2)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(21, 4)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(24, 1)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 2
+      },
+      "total_samples": 2
+    },
+    "(25, 7)": {
+      "prediction": 3,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "3": 1
+      },
+      "total_samples": 2
+    },
+    "(26, 3)": {
+      "prediction": 1,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "1": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(27, 6)": {
+      "prediction": 6,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(28, 1)": {
+      "prediction": 3,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "3": 1
+      },
+      "total_samples": 2
+    },
+    "(29, 6)": {
+      "prediction": 3,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "3": 1
+      },
+      "total_samples": 2
+    },
+    "(30, 4)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(33, 5)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "2": 1,
+        "3": 1
+      },
+      "total_samples": 2
+    },
+    "(34, 6)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(35, 2)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(37, 1)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 2
+      },
+      "total_samples": 2
+    },
+    "(38, 5)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "1": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(39, 7)": {
+      "prediction": 0,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "7": 1,
+        "1": 1
+      },
+      "total_samples": 3
+    },
+    "(40, 1)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(42, 7)": {
+      "prediction": 1,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "1": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(43, 7)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 2
+      },
+      "total_samples": 2
+    },
+    "(44, 1)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(46, 0)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(47, 2)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(48, 1)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(49, 5)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 2
+      },
+      "total_samples": 2
+    },
+    "(53, 0)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 2
+      },
+      "total_samples": 2
+    },
+    "(55, 6)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "majority",
+      "votes": {
+        "6": 1,
+        "0": 1,
+        "2": 2
+      },
+      "total_samples": 4
+    },
+    "(57, 6)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(59, 5)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 2
+      },
+      "total_samples": 2
+    },
+    "(0, 7)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(4, 4)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "5": 1
+      },
+      "total_samples": 2
+    },
+    "(5, 4)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(7, 2)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(8, 5)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(9, 1)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(10, 7)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(13, 1)": {
+      "prediction": 6,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(14, 7)": {
+      "prediction": 3,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(15, 6)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(16, 3)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(18, 7)": {
+      "prediction": 6,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "6": 1
+      },
+      "total_samples": 2
+    },
+    "(20, 5)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(21, 7)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(22, 6)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(24, 4)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(26, 6)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(27, 3)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(31, 3)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(32, 2)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(35, 3)": {
+      "prediction": 1,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "1": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(36, 2)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(40, 7)": {
+      "prediction": 7,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "2": 1,
+        "4": 1,
+        "7": 1
+      },
+      "total_samples": 3
+    },
+    "(41, 7)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(42, 2)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(44, 5)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(46, 2)": {
+      "prediction": 0,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "5": 1
+      },
+      "total_samples": 2
+    },
+    "(47, 1)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(48, 0)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(50, 0)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(52, 1)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(54, 6)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(57, 0)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(58, 0)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(60, 2)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(0, 3)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(1, 4)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(2, 4)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "5": 1
+      },
+      "total_samples": 2
+    },
+    "(3, 4)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 2
+      },
+      "total_samples": 2
+    },
+    "(5, 0)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 2
+      },
+      "total_samples": 2
+    },
+    "(6, 5)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(9, 5)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(10, 4)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(14, 4)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(15, 7)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(16, 2)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(17, 3)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(18, 0)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(20, 7)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(21, 3)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "2": 1,
+        "5": 1
+      },
+      "total_samples": 2
+    },
+    "(22, 0)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(23, 2)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(25, 4)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(26, 0)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(29, 2)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(30, 3)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(31, 4)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(32, 6)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 2
+      },
+      "total_samples": 2
+    },
+    "(33, 2)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(34, 0)": {
+      "prediction": 1,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(37, 4)": {
+      "prediction": 1,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "1": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(38, 1)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 2
+      },
+      "total_samples": 2
+    },
+    "(39, 1)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(41, 5)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(42, 4)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(43, 1)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(47, 0)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 2
+      },
+      "total_samples": 2
+    },
+    "(48, 5)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 2
+      },
+      "total_samples": 2
+    },
+    "(49, 3)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "2": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(50, 3)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 2
+      },
+      "total_samples": 2
+    },
+    "(51, 2)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(52, 4)": {
+      "prediction": 1,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(53, 3)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(54, 7)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(56, 0)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(58, 5)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(59, 0)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 2
+      },
+      "total_samples": 2
+    },
+    "(61, 3)": {
+      "prediction": 3,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "1": 1,
+        "3": 1
+      },
+      "total_samples": 2
+    },
+    "(1, 2)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(4, 5)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(6, 1)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(8, 2)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(9, 2)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(11, 2)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(12, 2)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(15, 1)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(17, 5)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(19, 5)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(20, 6)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(23, 5)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(27, 7)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(29, 3)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(30, 2)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(31, 7)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(33, 1)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(35, 5)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(36, 1)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(41, 1)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(43, 4)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(44, 7)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(45, 3)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(51, 7)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(53, 1)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(54, 1)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(56, 4)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(58, 2)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(60, 7)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    }
+  },
+  "skip_3": {
+    "(0, 6)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(1, 6)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(2, 6)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(3, 6)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(4, 7)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(5, 3)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(6, 3)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(7, 3)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(8, 0)": {
+      "prediction": 6,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "6": 2,
+        "7": 1
+      },
+      "total_samples": 3
+    },
+    "(9, 0)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(10, 6)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(11, 6)": {
+      "prediction": 4,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "7": 1,
+        "4": 1
+      },
+      "total_samples": 3
+    },
+    "(12, 3)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(13, 3)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(14, 0)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(15, 0)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(16, 7)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(17, 7)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(18, 6)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(19, 6)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "0": 1
+      },
+      "total_samples": 2
+    },
+    "(20, 0)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(21, 0)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(22, 7)": {
+      "prediction": 6,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "7": 1,
+        "4": 1
+      },
+      "total_samples": 3
+    },
+    "(23, 7)": {
+      "prediction": 5,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "3": 1,
+        "6": 1
+      },
+      "total_samples": 3
+    },
+    "(24, 6)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "6": 1
+      },
+      "total_samples": 2
+    },
+    "(25, 6)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(26, 5)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(27, 5)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(28, 4)": {
+      "prediction": 3,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "3": 1,
+        "7": 1
+      },
+      "total_samples": 3
+    },
+    "(29, 4)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(30, 5)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(31, 5)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "6": 1
+      },
+      "total_samples": 2
+    },
+    "(32, 4)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(33, 6)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(34, 4)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(35, 4)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(36, 3)": {
+      "prediction": 1,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "2": 1,
+        "7": 1,
+        "1": 1
+      },
+      "total_samples": 3
+    },
+    "(37, 3)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(38, 2)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(39, 2)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(40, 0)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(41, 0)": {
+      "prediction": 6,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(42, 0)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(43, 0)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(44, 6)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "0": 1
+      },
+      "total_samples": 2
+    },
+    "(45, 6)": {
+      "prediction": 3,
+      "confidence": 0.25,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "1": 1,
+        "0": 1,
+        "5": 1
+      },
+      "total_samples": 4
+    },
+    "(46, 7)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "3": 1
+      },
+      "total_samples": 2
+    },
+    "(47, 7)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(48, 3)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(49, 7)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(50, 6)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "0": 1
+      },
+      "total_samples": 2
+    },
+    "(51, 6)": {
+      "prediction": 3,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "3": 2,
+        "6": 1
+      },
+      "total_samples": 3
+    },
+    "(52, 5)": {
+      "prediction": 3,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "6": 1
+      },
+      "total_samples": 2
+    },
+    "(53, 5)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(54, 3)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "2": 1,
+        "6": 1
+      },
+      "total_samples": 2
+    },
+    "(55, 3)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(56, 2)": {
+      "prediction": 5,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "4": 1,
+        "5": 2
+      },
+      "total_samples": 3
+    },
+    "(57, 2)": {
+      "prediction": 1,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "1": 2,
+        "7": 1
+      },
+      "total_samples": 3
+    },
+    "(58, 4)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 2
+      },
+      "total_samples": 2
+    },
+    "(59, 4)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(60, 1)": {
+      "prediction": 6,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "6": 1,
+        "1": 1
+      },
+      "total_samples": 3
+    },
+    "(0, 5)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "2": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(1, 5)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(2, 2)": {
+      "prediction": 6,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(3, 2)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 2
+      },
+      "total_samples": 2
+    },
+    "(4, 6)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(5, 6)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(6, 7)": {
+      "prediction": 1,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(7, 7)": {
+      "prediction": 4,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "1": 1,
+        "4": 2
+      },
+      "total_samples": 3
+    },
+    "(10, 1)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(11, 7)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(12, 4)": {
+      "prediction": 7,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "6": 1,
+        "7": 1
+      },
+      "total_samples": 3
+    },
+    "(13, 4)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 2
+      },
+      "total_samples": 2
+    },
+    "(15, 3)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(16, 4)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "5": 1
+      },
+      "total_samples": 2
+    },
+    "(17, 4)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "2": 1,
+        "5": 1
+      },
+      "total_samples": 2
+    },
+    "(18, 4)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(19, 4)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "6": 1
+      },
+      "total_samples": 2
+    },
+    "(20, 2)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(21, 4)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(24, 1)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(25, 7)": {
+      "prediction": 1,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "1": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(26, 3)": {
+      "prediction": 3,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "3": 1
+      },
+      "total_samples": 2
+    },
+    "(27, 6)": {
+      "prediction": 3,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "3": 1
+      },
+      "total_samples": 2
+    },
+    "(28, 1)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(29, 6)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(30, 4)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 2
+      },
+      "total_samples": 2
+    },
+    "(33, 5)": {
+      "prediction": 3,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(34, 6)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 2
+      },
+      "total_samples": 2
+    },
+    "(35, 2)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(37, 1)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "1": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(38, 5)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(39, 7)": {
+      "prediction": 7,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "7": 2,
+        "2": 1
+      },
+      "total_samples": 3
+    },
+    "(40, 1)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(42, 7)": {
+      "prediction": 3,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "3": 1
+      },
+      "total_samples": 2
+    },
+    "(43, 7)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(44, 1)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(46, 0)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(47, 2)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(48, 1)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(49, 5)": {
+      "prediction": 1,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(53, 0)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 2
+      },
+      "total_samples": 2
+    },
+    "(55, 6)": {
+      "prediction": 4,
+      "confidence": 0.25,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "0": 1,
+        "5": 1,
+        "2": 1
+      },
+      "total_samples": 4
+    },
+    "(57, 6)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(59, 5)": {
+      "prediction": 6,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "0": 1
+      },
+      "total_samples": 2
+    },
+    "(0, 7)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(4, 4)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "2": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(5, 4)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(7, 2)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(8, 5)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(9, 1)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(10, 7)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(13, 1)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(14, 7)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "5": 1
+      },
+      "total_samples": 2
+    },
+    "(15, 6)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(16, 3)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(18, 7)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "3": 1
+      },
+      "total_samples": 2
+    },
+    "(20, 5)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(21, 7)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(22, 6)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(24, 4)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(26, 6)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(27, 3)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(31, 3)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(32, 2)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(35, 3)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(36, 2)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(40, 7)": {
+      "prediction": 7,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "1": 1,
+        "4": 1
+      },
+      "total_samples": 3
+    },
+    "(41, 7)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(42, 2)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(44, 5)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(46, 2)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "3": 1
+      },
+      "total_samples": 2
+    },
+    "(47, 1)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(48, 0)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(50, 0)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(52, 1)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(54, 6)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(57, 0)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(58, 0)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(60, 2)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(0, 3)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(1, 4)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(2, 4)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 2
+      },
+      "total_samples": 2
+    },
+    "(3, 4)": {
+      "prediction": 1,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(5, 0)": {
+      "prediction": 0,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(6, 5)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(9, 5)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(10, 4)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "1": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(14, 4)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(15, 7)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(16, 2)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(17, 3)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(18, 0)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(20, 7)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(21, 3)": {
+      "prediction": 6,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(22, 0)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(23, 2)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(25, 4)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "1": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(26, 0)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(29, 2)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(30, 3)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(31, 4)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(32, 6)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "5": 1
+      },
+      "total_samples": 2
+    },
+    "(33, 2)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(34, 0)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 2
+      },
+      "total_samples": 2
+    },
+    "(37, 4)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 2
+      },
+      "total_samples": 2
+    },
+    "(38, 1)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(39, 1)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(41, 5)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(42, 4)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(43, 1)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(47, 0)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 2
+      },
+      "total_samples": 2
+    },
+    "(48, 5)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "2": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(49, 3)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 2
+      },
+      "total_samples": 2
+    },
+    "(50, 3)": {
+      "prediction": 1,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(51, 2)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(52, 4)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 2
+      },
+      "total_samples": 2
+    },
+    "(53, 3)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(54, 7)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(56, 0)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(58, 5)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(59, 0)": {
+      "prediction": 6,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "0": 1
+      },
+      "total_samples": 2
+    },
+    "(1, 2)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(4, 5)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(6, 1)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(8, 2)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(9, 2)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(11, 2)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(12, 2)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(15, 1)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(17, 5)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(19, 5)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(20, 6)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(23, 5)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(27, 7)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(29, 3)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(30, 2)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(31, 7)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(33, 1)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(35, 5)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(36, 1)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(41, 1)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(43, 4)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(44, 7)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(45, 3)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(51, 7)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(53, 1)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(54, 1)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(56, 4)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(58, 2)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(60, 7)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    }
+  },
+  "skip_4": {
+    "(0, 6)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(1, 6)": {
+      "prediction": 3,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(2, 6)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(3, 6)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(4, 7)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(5, 3)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(6, 3)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(7, 3)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(8, 0)": {
+      "prediction": 4,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "3": 1,
+        "4": 2
+      },
+      "total_samples": 3
+    },
+    "(9, 0)": {
+      "prediction": 3,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(10, 6)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(11, 6)": {
+      "prediction": 0,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "6": 1,
+        "7": 1
+      },
+      "total_samples": 3
+    },
+    "(12, 3)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(13, 3)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(14, 0)": {
+      "prediction": 6,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(15, 0)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(16, 7)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(17, 7)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(18, 6)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(19, 6)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(20, 0)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(21, 0)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(22, 7)": {
+      "prediction": 3,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "5": 1,
+        "3": 2
+      },
+      "total_samples": 3
+    },
+    "(23, 7)": {
+      "prediction": 6,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "6": 1,
+        "3": 1
+      },
+      "total_samples": 3
+    },
+    "(24, 6)": {
+      "prediction": 1,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(25, 6)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(26, 5)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(27, 5)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(28, 4)": {
+      "prediction": 2,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "2": 1,
+        "6": 1
+      },
+      "total_samples": 3
+    },
+    "(29, 4)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(30, 5)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(31, 5)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(32, 4)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 2
+      },
+      "total_samples": 2
+    },
+    "(33, 6)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(34, 4)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(35, 4)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(36, 3)": {
+      "prediction": 1,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "1": 1,
+        "7": 1
+      },
+      "total_samples": 3
+    },
+    "(37, 3)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(38, 2)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(39, 2)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(40, 0)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(41, 0)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 2
+      },
+      "total_samples": 2
+    },
+    "(42, 0)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(43, 0)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(44, 6)": {
+      "prediction": 3,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "5": 1
+      },
+      "total_samples": 2
+    },
+    "(45, 6)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "majority",
+      "votes": {
+        "7": 1,
+        "5": 2,
+        "3": 1
+      },
+      "total_samples": 4
+    },
+    "(46, 7)": {
+      "prediction": 6,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "3": 1
+      },
+      "total_samples": 2
+    },
+    "(47, 7)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(48, 3)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(49, 7)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(50, 6)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 2
+      },
+      "total_samples": 2
+    },
+    "(51, 6)": {
+      "prediction": 6,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "3": 1,
+        "6": 2
+      },
+      "total_samples": 3
+    },
+    "(52, 5)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 2
+      },
+      "total_samples": 2
+    },
+    "(53, 5)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(54, 3)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 2
+      },
+      "total_samples": 2
+    },
+    "(55, 3)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(56, 2)": {
+      "prediction": 1,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "1": 2,
+        "2": 1
+      },
+      "total_samples": 3
+    },
+    "(57, 2)": {
+      "prediction": 3,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "1": 1,
+        "3": 2
+      },
+      "total_samples": 3
+    },
+    "(58, 4)": {
+      "prediction": 6,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "6": 1
+      },
+      "total_samples": 2
+    },
+    "(59, 4)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(0, 5)": {
+      "prediction": 6,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "5": 1
+      },
+      "total_samples": 2
+    },
+    "(1, 5)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(2, 2)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 2
+      },
+      "total_samples": 2
+    },
+    "(3, 2)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(4, 6)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(5, 6)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(6, 7)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "1": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(7, 7)": {
+      "prediction": 6,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "6": 1,
+        "2": 1
+      },
+      "total_samples": 3
+    },
+    "(10, 1)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(11, 7)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(12, 4)": {
+      "prediction": 3,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "3": 1,
+        "2": 1
+      },
+      "total_samples": 3
+    },
+    "(13, 4)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "5": 1
+      },
+      "total_samples": 2
+    },
+    "(15, 3)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(16, 4)": {
+      "prediction": 6,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "2": 1,
+        "6": 1
+      },
+      "total_samples": 2
+    },
+    "(17, 4)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(18, 4)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(19, 4)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 2
+      },
+      "total_samples": 2
+    },
+    "(20, 2)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(21, 4)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(24, 1)": {
+      "prediction": 1,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "1": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(25, 7)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 2
+      },
+      "total_samples": 2
+    },
+    "(26, 3)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(27, 6)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(28, 1)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "6": 1
+      },
+      "total_samples": 2
+    },
+    "(29, 6)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 2
+      },
+      "total_samples": 2
+    },
+    "(30, 4)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 2
+      },
+      "total_samples": 2
+    },
+    "(33, 5)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 2
+      },
+      "total_samples": 2
+    },
+    "(34, 6)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 2
+      },
+      "total_samples": 2
+    },
+    "(35, 2)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(37, 1)": {
+      "prediction": 0,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(38, 5)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(39, 7)": {
+      "prediction": 7,
+      "confidence": 0.6666666666666666,
+      "method": "majority",
+      "votes": {
+        "7": 2,
+        "4": 1
+      },
+      "total_samples": 3
+    },
+    "(40, 1)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(42, 7)": {
+      "prediction": 0,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(43, 7)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "2": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(44, 1)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(46, 0)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(47, 2)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(48, 1)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(49, 5)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 2
+      },
+      "total_samples": 2
+    },
+    "(53, 0)": {
+      "prediction": 0,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "0": 1
+      },
+      "total_samples": 2
+    },
+    "(55, 6)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "5": 2,
+        "0": 2
+      },
+      "total_samples": 4
+    },
+    "(57, 6)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(59, 5)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 2
+      },
+      "total_samples": 2
+    },
+    "(0, 7)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(4, 4)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "0": 1
+      },
+      "total_samples": 2
+    },
+    "(5, 4)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(7, 2)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(8, 5)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(9, 1)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(10, 7)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(13, 1)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "3": 1
+      },
+      "total_samples": 2
+    },
+    "(14, 7)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 2
+      },
+      "total_samples": 2
+    },
+    "(15, 6)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(16, 3)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(18, 7)": {
+      "prediction": 6,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "6": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(20, 5)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(21, 7)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(22, 6)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(24, 4)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(26, 6)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(27, 3)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(31, 3)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(32, 2)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(35, 3)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(36, 2)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(40, 7)": {
+      "prediction": 7,
+      "confidence": 0.3333333333333333,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "6": 1,
+        "7": 1
+      },
+      "total_samples": 3
+    },
+    "(41, 7)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(42, 2)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(44, 5)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(46, 2)": {
+      "prediction": 0,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "3": 1
+      },
+      "total_samples": 2
+    },
+    "(47, 1)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(48, 0)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(50, 0)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(52, 1)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(54, 6)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(57, 0)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(58, 0)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(0, 3)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(1, 4)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(2, 4)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(3, 4)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 2
+      },
+      "total_samples": 2
+    },
+    "(5, 0)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "2": 1
+      },
+      "total_samples": 2
+    },
+    "(6, 5)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(9, 5)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(10, 4)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(14, 4)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(15, 7)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(16, 2)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(17, 3)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(18, 0)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(20, 7)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(21, 3)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 2
+      },
+      "total_samples": 2
+    },
+    "(22, 0)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(23, 2)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(25, 4)": {
+      "prediction": 2,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "2": 1,
+        "3": 1
+      },
+      "total_samples": 2
+    },
+    "(26, 0)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(29, 2)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(30, 3)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(31, 4)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(32, 6)": {
+      "prediction": 3,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(33, 2)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(34, 0)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 2
+      },
+      "total_samples": 2
+    },
+    "(37, 4)": {
+      "prediction": 5,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "5": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(38, 1)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "4": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(39, 1)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(41, 5)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(42, 4)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(43, 1)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(47, 0)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "2": 1,
+        "7": 1
+      },
+      "total_samples": 2
+    },
+    "(48, 5)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 2
+      },
+      "total_samples": 2
+    },
+    "(49, 3)": {
+      "prediction": 1,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "3": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(50, 3)": {
+      "prediction": 7,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "7": 1,
+        "1": 1
+      },
+      "total_samples": 2
+    },
+    "(51, 2)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(52, 4)": {
+      "prediction": 4,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "0": 1,
+        "4": 1
+      },
+      "total_samples": 2
+    },
+    "(53, 3)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(54, 7)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(56, 0)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(58, 5)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(59, 0)": {
+      "prediction": 1,
+      "confidence": 0.5,
+      "method": "random",
+      "votes": {
+        "1": 1,
+        "3": 1
+      },
+      "total_samples": 2
+    },
+    "(1, 2)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(4, 5)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(6, 1)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(8, 2)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(9, 2)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(11, 2)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(12, 2)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(15, 1)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(17, 5)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(19, 5)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(20, 6)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(23, 5)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(27, 7)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(29, 3)": {
+      "prediction": 1,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "1": 1
+      },
+      "total_samples": 1
+    },
+    "(30, 2)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(31, 7)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(33, 1)": {
+      "prediction": 4,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "4": 1
+      },
+      "total_samples": 1
+    },
+    "(35, 5)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(36, 1)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(41, 1)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(43, 4)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    },
+    "(44, 7)": {
+      "prediction": 5,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "5": 1
+      },
+      "total_samples": 1
+    },
+    "(45, 3)": {
+      "prediction": 3,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "3": 1
+      },
+      "total_samples": 1
+    },
+    "(51, 7)": {
+      "prediction": 6,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "6": 1
+      },
+      "total_samples": 1
+    },
+    "(53, 1)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(54, 1)": {
+      "prediction": 2,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "2": 1
+      },
+      "total_samples": 1
+    },
+    "(56, 4)": {
+      "prediction": 7,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "7": 1
+      },
+      "total_samples": 1
+    },
+    "(58, 2)": {
+      "prediction": 0,
+      "confidence": 1.0,
+      "method": "majority",
+      "votes": {
+        "0": 1
+      },
+      "total_samples": 1
+    }
+  }
+}

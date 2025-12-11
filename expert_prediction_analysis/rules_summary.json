@@ -1,0 +1,18 @@
+{
+  "training_tokens": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "rules_count": {
+    "level1": 216,
+    "level2": 286,
+    "level3": 299,
+    "level4": 278,
+    "level5_skip2": 213,
+    "level5_skip3": 211,
+    "level5_skip4": 208
+  }
+}

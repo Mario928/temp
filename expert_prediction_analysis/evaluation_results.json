@@ -1,0 +1,67 @@
+{
+  "test_tokens": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "results": [
+    {
+      "level": "Level 1: (Layer, Expert)",
+      "accuracy": 16.560509554140125,
+      "coverage": 49.84126984126984,
+      "correct": 26,
+      "matched": 157,
+      "total": 315
+    },
+    {
+      "level": "Level 2: (Layer, Prev, Curr)",
+      "accuracy": 29.72972972972973,
+      "coverage": 11.935483870967742,
+      "correct": 11,
+      "matched": 37,
+      "total": 310
+    },
+    {
+      "level": "Level 3: (Layer, E-2, E-1, E)",
+      "accuracy": 27.27272727272727,
+      "coverage": 3.606557377049181,
+      "correct": 3,
+      "matched": 11,
+      "total": 305
+    },
+    {
+      "level": "Level 4: (Layer, Prim, Sec)",
+      "accuracy": 22.641509433962266,
+      "coverage": 16.825396825396826,
+      "correct": 12,
+      "matched": 53,
+      "total": 315
+    },
+    {
+      "level": "Level 5: Skip-2",
+      "accuracy": 26.451612903225808,
+      "coverage": 50.0,
+      "correct": 41,
+      "matched": 155,
+      "total": 310
+    },
+    {
+      "level": "Level 5: Skip-3",
+      "accuracy": 11.688311688311687,
+      "coverage": 50.49180327868853,
+      "correct": 18,
+      "matched": 154,
+      "total": 305
+    },
+    {
+      "level": "Level 5: Skip-4",
+      "accuracy": 21.568627450980394,
+      "coverage": 51.0,
+      "correct": 33,
+      "matched": 153,
+      "total": 300
+    }
+  ]
+}
